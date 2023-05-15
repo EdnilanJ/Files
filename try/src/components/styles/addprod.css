@@ -1,0 +1,223 @@
+.cont{
+    flex: 1;
+    display: flex;
+    background: #b86920;
+    width: 100%;
+    height: 100vh;
+}
+
+.logos{
+    position: absolute;
+    top: -3.4rem;
+    left: -1.4rem;
+    width: 17rem;
+    height: 17rem;
+}
+
+.siout{
+    position: absolute;
+    top: -0.2rem;
+    left: 0.6rem;
+    height: 2rem;
+}
+
+.tabsss{
+    position: absolute;
+    top: 1.5rem;
+    left: 15rem;
+}
+
+.btnd{
+    position: absolute;
+    border-radius: 10px;
+    border-color: #a9a454;
+    top: 47rem;
+    left: 2rem;
+    width: 11rem;
+    height: 2rem;
+    color: white;
+    font-size:20px;
+    background: #a9a454;
+}
+
+.btnd:hover{
+    box-shadow: 5px 6px black;
+    transition: 0.6s;
+}
+
+.nodialog{
+    position: absolute;
+    height: 1.8rem;
+    width: 6rem;
+    left: 63rem;
+    top: 29rem;
+    color: white;
+    border-radius: 10px;
+    border-color: #556b2f;
+    background: #556b2f;
+    font-size: 18px;
+}
+.addproductbox{
+    background: #556b2f;
+    position: absolute;
+    left: 14rem;
+    top: 7.6rem;
+    width: 82rem;
+    height: 41.8rem;
+}
+
+.addproducttxt{
+    position: absolute;
+    font-weight: bold;
+    font-size: 64px;
+    top: 1rem;
+    left: 30rem;
+    color: white;
+    text-shadow: 0px 6px 10px  black;
+}
+
+
+
+/* sa tanan ning add text */
+.addtext{
+    position: absolute;
+    font-size: 21px;
+    color: white;
+}
+.addpinput{
+    text-align: center;
+    width: 23rem;
+    height: 3rem;
+    border-radius: 20px;
+    border-color: white;
+    font-size: 18px;
+}
+
+/* kani kay sa pag add og pic */
+.addadd{
+    position: absolute;
+    top: 7.5em;
+    left: 36rem;
+}
+
+/* kani kay sa product ID */
+.prodid{
+    position: absolute;
+    top: 18.7rem;
+    left: 30rem;
+}
+
+/* kani kay sa product name */
+.prodname{
+    position: absolute;
+    top: 22.6rem;
+    left: 30rem;
+}
+
+/* sa category */
+.droptext{
+    position: absolute;
+    top: 25rem;
+    left: 31rem;
+}
+.drop{
+    position: absolute;
+    top: 26.7rem;
+    left: 30rem;
+    text-align: center;
+    width: 23rem;
+    height: 3rem;
+    border-radius: 20px;
+    font-size: 18px;
+    color: black;
+}
+.dropb{
+    text-align: center;
+    width: 23rem;
+    height: 3rem;
+    border-radius: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+/* kani sa expiration date */
+.expired{
+    position: absolute;
+    top: 30.2rem;
+    left: 30rem;
+}
+
+/* kani sa quantity  */
+.addte2{
+    position: absolute;
+    top: 33.4rem;
+    left: 31rem;
+}
+.quant{
+    position: absolute;
+    pointer-events: none;
+    font-size: 32px;
+    top: 35rem;
+    left: 30rem;
+}
+.plus{
+    position: absolute;
+    border-color: #425029;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    top: 35.7rem;
+    left: 46rem;
+    background: #556b2f;
+}
+.minus{
+    position: absolute;
+    border-color: #933b3b;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    top: 35.7rem;
+    left: 36rem;
+    background: #a34343;
+}
+.fontplus{
+    position: absolute;
+    top: -0.2rem;
+    left: 0.3rem;
+    font-size: 32px;
+
+}
+.fontminus{
+    position: absolute;
+    top: -0.7rem;
+    left: 0.5rem;
+    font-size: 40px;
+
+}
+
+/* button sa cancel og save */
+.savebtn{
+    position: absolute;
+    border-color: #b86920;
+    border-radius: 20px;
+    width: 9rem;
+    height: 2rem;
+    top: 39.3rem;
+    left: 45rem;
+    background: #b86920;
+}
+.cancelbtn{
+    position: absolute;
+    border-color: #afa724;
+    border-radius: 20px;
+    width: 9rem;
+    height: 2rem;
+    top: 39.3rem;
+    left: 30rem;
+    background: #afa724;
+}
+
+.savetext, .canceltext{
+    font-size: 20px;
+    color: #f0dfcf;
+}

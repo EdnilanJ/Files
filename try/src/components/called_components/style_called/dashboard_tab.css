@@ -1,0 +1,73 @@
+.con{
+    display:flex;
+    background-color: #b86920;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.logos{
+    position: absolute;
+    top: -3.4rem;
+    left: -1.4rem;
+    width: 17rem;
+    height: 17rem;
+}
+
+.siout{
+    position: absolute;
+    top: -0.2rem;
+    left: 0.6rem;
+    height: 2rem;
+}
+
+.tabhead{
+    display: flex;
+    padding: 1.5rem;
+    width: 8rem;
+    height: 5rem;
+    justify-content: center;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-color: transparent;
+    
+}
+
+.ho1{
+    position: absolute;
+    top: 2.6rem;
+    left: 14rem;
+    background-color: #556b2f;
+}
+.in1{
+    position: absolute;
+    top: 2.6rem;
+    left: 22rem;
+    background-color: transparent;
+}
+.inl1{
+    position: absolute;
+    top: 2.6rem;
+    left: 30rem;
+    background-color: transparent;
+}
+.se1{
+    position: absolute;
+    top: 2.6rem;
+    left: 38rem;
+    background-color: transparent;
+}
+
+.pich, .pici, .picil, .picss{
+    position: absolute;
+    width: 2.7rem;
+    top: 1rem;
+    height: 3rem;
+}
+
+.siout{
+    position: absolute;
+    top: -0.2rem;
+    left: 0.6rem;
+    height: 2rem;
+}

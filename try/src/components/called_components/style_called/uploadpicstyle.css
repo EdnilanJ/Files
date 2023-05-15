@@ -1,0 +1,31 @@
+    /* sa design ni tistingi gani e comment ni makita nimo sa output */
+    input[type="file"] {
+        display: none;
+      }
+      
+      /* kani ang sa likod dapit */
+      .custom-file-upload {
+        border-radius: 10%;
+        display: inline-block;
+        position: relative;
+        padding: 6px;
+        cursor: pointer;
+        background: #d9d9d9;
+        margin-bottom: 25px;
+      }
+      
+      /* tapos kani kay sa pic na imong ma upload */
+      .img-wrap{
+        position: relative;
+        width: 162px;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 10%;
+      }
+    
+      /* kani sa pina ka una na image na makita nimo */
+      img {
+        width: auto;
+        height: 100%;
+      }
+    
